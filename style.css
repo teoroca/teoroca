@@ -1,5 +1,4 @@
 
-
 * {
    padding:0%;
     text-decoration: none;
@@ -79,29 +78,11 @@ header {
 }
 
 
-.registrarse {
- background-color: teal;
- border: solid black 2px;
-}
-.body-regis {
-    background-image: url(images/kitchen-1687121_1920.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.registrarse-aca {
-    display: flex;
-    justify-content: center;
-    color: black;
-}
-
 /* para el footer*/
 .redes {
     display: inline-flex;
     list-style: none;
 }
-
-
 
 .imagen-facebook {
 height: 50px;
@@ -171,4 +152,10 @@ li:hover {
 }
 .form-floating {
     padding: 70px;
+}
+
+/*registrarse*/
+.registro {
+    display: grid;
+    grid-template-columns: auto auto;
 }
