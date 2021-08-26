@@ -1,0 +1,41 @@
+.body-index {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.ulMenu {
+  color: #181010;
+  font-style: italic;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.body-index {
+  background-image: url(images/monta.jpg);
+}
+
+.ul-principal {
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 550px;
+  color: white;
+  list-style-type: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: flex-start;
+}
+
+.body-index {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.body-index {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */

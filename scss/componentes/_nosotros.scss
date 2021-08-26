@@ -1,0 +1,10 @@
+@import "mapas";
+@import "extends";
+
+
+.table {
+    border: map-get($table , borderr );
+    background-color: map-get($table , bg );
+    height: 50%; 
+    margin-left: 100px;
+}

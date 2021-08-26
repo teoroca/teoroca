@@ -1,0 +1,26 @@
+
+@import "variables";
+@import "colores";
+@import "extends";
+
+.ulMenu {
+    color: nth($colores , 1 );
+    font-style: italic;
+    display: $display;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.body-index {
+    background-image: url(images/monta.jpg);
+    @extend %background-imag;    
+}
+.ul-principal {
+    text-decoration: none; 
+    display: inline-block; 
+    padding-left: 550px;
+    color: nth($colores , 5 );
+    list-style-type: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: flex-start;
+}
+
